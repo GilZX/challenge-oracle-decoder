@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title >AluraChallenge-Encryptar-Desencryptar-HTML-CSS-JS</title>
+
+    <script src="js/encryptador.js" ></script>
+</head>
+<body>
+    <header>
+        <img src="imagenes/logo.png">
+    </header>
+    
+    <main class="Principal">
+
+        <span class="mensaje">Mensaje Error </span>
+        <div class="Input">
+            <textarea id="txt_input" style="resize: vertical;" rows="5"> Ingrese El Texto Aqui!</textarea>    
+        </div>
+
+
+        <div class="resultado">
+
+            <img  class="Dibujo" src="imagenes/Animado.png">
+            <p id="pResultado" style="color: black ; size: 25px; font-size: medium; font-weight:bold ; text-align: center;">
+            Ningun Mensaje Fue Encontrado!</p>
+            <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <button onclick="copiar()" id="btn_copiar" style="align-self: center;"> Copiar</button>
+        </div>
+
+
+        <div class="Botones">
+            <img id="img-warning" src="imagenes/warning.png" style="display: block;">
+            <h3  id="txt-warning" style="display: list-item;">Solo Letras Minusculas y sin acentos</h3>
+            <button onclick="encryptar()" id="btn_encryp" style=" background: #0A3871;
+            ; color: white;" > Encriptar </button>
+
+
+            <button id="btn_desencryp"  onclick="desencryptar()" style="background: #D8DFE8 ;color: #0A3871;
+    
+            ;">Desencriptar</button>
+        </div>
+    </main>
+      
+</body>
+
+
+
+<footer>
+    <img src="imagenes/tucanJS2 (1).jpg" height="75px" width="75px">
+    <p>&copy Sitio Web Autor Gilberto Antonio - Gilzx 2022</p>
+</footer>
+
+</html>

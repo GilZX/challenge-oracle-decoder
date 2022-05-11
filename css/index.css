@@ -1,0 +1,201 @@
+body{
+
+    background-color: #e9ecf8;
+
+
+}
+.Principal{
+    width: 1000px;
+}
+#pResultado{
+    position: absolute;
+    top: 350px;
+    transition: 1s;
+}
+#pResultado:hover{
+    box-shadow: 2px 2px 2px #0A3871;
+
+}
+.Dibujo{
+    position: absolute;
+    top:50px;
+}
+
+.resultado{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 40px;
+    position: static;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    background-color: whitesmoke;
+    border-radius: 32px;
+    width: 316.8px;
+    height: 580px;
+    left: 950px;
+    top: 40px;
+    top:0px;
+    position: absolute;
+    transition: 1s;
+    
+
+}
+
+.resultado:hover{
+    box-shadow: 2px 2px 2px #0A3871;
+}
+
+.logo{
+    
+}
+
+
+#txt_input{
+
+
+    position: absolute;
+    border: 2px slateblue solid;
+    background-color: #e9ecf8;
+    width: 577px;
+    height: 48px;
+    top: 168px;
+    left: 240px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif  ;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    transition: 1s;
+    
+}
+
+#txt_input:hover textarea{
+    border-color: #0A3871;
+}
+
+button{
+
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 24px;
+    display:inline;
+    text-align: center;  
+  
+
+}
+
+button:hover{
+    border-color: #570d69;
+    box-shadow: 3px 3px 3px #0A3871;
+
+}
+.Botones{
+    position: absolute;
+    top:500px;
+    left: 90px;
+    align-content: center;
+    margin: auto;
+
+}
+
+
+#frame3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top:885px;
+}
+footer{
+    background-color: darkslateblue;
+    color: aliceblue;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 3%;
+}
+
+.mensaje{
+    display: none;
+    position: absolute;
+    font-size: medium;
+    color: red;
+    transition: 1s;
+    top:280px;
+    left:250px;
+
+
+}
+
+
+@media screen and (max-width:400px) {
+    
+    .Principal{
+        width: auto;
+    }
+    #txt_input{
+        width: 299px;
+        height: 48px;
+        top: 168px;
+        left: 50px;
+    }
+    .resultado{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 40px;
+    position: static;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    background-color: whitesmoke;
+    border-radius: 32px;
+    width: auto;
+    height: 166px;
+    left: 10px;
+    top: 550px;
+    position: absolute;
+    }
+
+    .Botones{
+        position: absolute;
+        width: auto;
+        top: 350px;
+        left: 60px;
+        align-content: center;
+        margin: auto;
+    }
+
+    .Dibujo{
+        width: 0px;
+    }
+
+    #pResultado {
+        position: unset;
+        color: blue;
+         size: auto;
+        font-size: large;
+        font-weight: initial;
+        text-align: center;
+    }
+
+}
